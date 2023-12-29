@@ -31,7 +31,7 @@ export const Header = () => {
             <div className="navigation">
               <ul className="menu d-flex align-items-center gap-5">
                 {navbarLinks.map((item, i) => (
-                  <li className="nav__item h5 fw-bold" key={i}>
+                  <li className="nav__item" key={i}>
                     <NavLink to={item.path}>{item.display}</NavLink>
                   </li>
                 ))}
@@ -41,13 +41,13 @@ export const Header = () => {
             {/* menu-end */}
             <div className="nav__right d-flex align-items-center gap-4">
               <div className="nav__btns d-flex align-items-center gap-4">
-                <Button variant="none" className="fw-bold">
-                  <Link to="/login" className=" h4 nav-link">
+                <Button variant="none" className="">
+                  <Link to="/login" className="nav-link">
                     {" "}
                     Login
                   </Link>
                 </Button>
-                <Button variant="warning" className="h4 fw-bold rounded-pill">
+                <Button variant="warning" className="rounded-pill">
                   <Link to="/login" className="nav-link">
                     {" "}
                     Register
