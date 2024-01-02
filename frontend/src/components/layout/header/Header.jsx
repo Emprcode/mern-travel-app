@@ -7,7 +7,7 @@ import Button from "react-bootstrap/esm/Button";
 
 export const Header = () => {
   return (
-    <Navbar expand="md" className="bg-body-tertiary">
+    <Navbar expand="md" className="bg-body-tertiary fixed">
       <Container>
         <Navbar.Brand href="#home">
           <div>
