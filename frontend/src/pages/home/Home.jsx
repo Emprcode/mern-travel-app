@@ -19,11 +19,11 @@ const Home = () => {
                 <Subtitle subtitle={"Know Before you Go"} />
                 <img src={world} alt="world" width={50} />
               </div>
-              <h1>
+              <h1 className="mt-4">
                 Travelling opens the door to creating{" "}
-                <span className="highlight text-warning">memories</span>
+                <span className="highlight text-warning">“memories”</span>
               </h1>
-              <p className="mt-3 ">
+              <p className="mt-5">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Dolore, assumenda odio? Minus laudantium adipisci autem debitis
                 recusandae vero suscipit! Nesciunt veritatis id similique

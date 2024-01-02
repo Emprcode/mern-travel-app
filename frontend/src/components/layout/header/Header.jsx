@@ -16,7 +16,7 @@ export const Header = () => {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto d-flex justify-content-around gap-5">
+          <Nav className="ms-auto d-flex justify-content-around gap-md-5">
             <Link className="nav-link fw-bold h5" to="home">
               Home
             </Link>
