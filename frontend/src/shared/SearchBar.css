@@ -1,0 +1,27 @@
+.icon_color {
+  color: #ee6e6e;
+  font-size: 1.3rem;
+}
+.form__style {
+  border-radius: 100px;
+}
+
+.form__group input {
+  border: none;
+  font-size: 0.9rem;
+  color: var(--heading-color);
+  font-weight: 500;
+}
+.form__group label {
+  margin-top: 10px;
+  border: none;
+  font-size: 1rem;
+  color: var(--heading-color);
+  font-weight: 500;
+  margin-left: 1rem;
+}
+
+.form__group-fast {
+  margin-top: 10px;
+  border-right: 2px solid #ddd;
+}

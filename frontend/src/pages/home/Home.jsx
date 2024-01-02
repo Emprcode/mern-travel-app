@@ -47,7 +47,9 @@ const Home = () => {
             </div>
           </Col>
         </Row>
-        <SearchBar />
+        <Row className="">
+          <SearchBar />
+        </Row>
       </Container>
     </div>
   );
