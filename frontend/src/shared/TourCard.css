@@ -1,0 +1,8 @@
+.title {
+  font-size: bold;
+}
+
+.title:hover {
+  color: #ee6e6e;
+  transition: ease-in;
+}

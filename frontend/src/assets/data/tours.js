@@ -8,24 +8,6 @@ import tourImg07 from "../images/tour-img07.jpg";
 
 const tours = [
   {
-    id: "01",
-    title: "Westminister Bridge",
-    city: "London",
-    distance: 300,
-    price: 99,
-    maxGroupSize: 10,
-    desc: "this is the description",
-    reviews: [
-      {
-        name: "jhon doe",
-        rating: 4.6,
-      },
-    ],
-    avgRating: 4.5,
-    photo: tourImg01,
-    featured: true,
-  },
-  {
     id: "02",
     title: "Bali, Indonesia",
     city: "Indonesia",
@@ -38,15 +20,70 @@ const tours = [
         name: "jhon doe",
         rating: 4.6,
       },
+      {
+        name: "jhon doe",
+        rating: 4.6,
+      },
+      {
+        name: "jhon doe",
+        rating: 4.6,
+      },
+      {
+        name: "jhon doe",
+        rating: 4.6,
+      },
+      {
+        name: "jhon doe",
+        rating: 4.6,
+      },
     ],
     avgRating: 4.5,
     photo: tourImg02,
     featured: true,
   },
   {
-    id: "03",
-    title: "Snowy Mountains, Thailand",
-    city: "Thailand",
+    id: "01",
+    title: "Westminister Bridge",
+    city: "London",
+    distance: 300,
+    price: 99,
+    maxGroupSize: 10,
+    desc: "this is the description",
+    reviews: [],
+    avgRating: 4.5,
+    photo: tourImg01,
+    featured: true,
+  },
+  {
+    id: "06",
+    title: "Cherry Blossoms Spring",
+    city: "Japan",
+    distance: 500,
+    price: 99,
+    maxGroupSize: 8,
+    desc: "this is the description",
+    reviews: [
+      {
+        name: "jhon doe",
+        rating: 4.6,
+      },
+      {
+        name: "jhon doe",
+        rating: 4.6,
+      },
+      {
+        name: "jhon doe",
+        rating: 4.6,
+      },
+    ],
+    avgRating: 4.5,
+    photo: tourImg06,
+    featured: false,
+  },
+  {
+    id: "07",
+    title: "Holmen Lofoten, France",
+    city: "France",
     distance: 500,
     price: 99,
     maxGroupSize: 8,
@@ -58,6 +95,24 @@ const tours = [
       },
     ],
     avgRating: 4.5,
+    photo: tourImg07,
+    featured: false,
+  },
+  {
+    id: "03",
+    title: "Snowy Mountains, Australia",
+    city: "Australia",
+    distance: 500,
+    price: 99,
+    maxGroupSize: 8,
+    desc: "this is the description",
+    reviews: [
+      {
+        name: "jhon doe",
+        rating: 4.6,
+      },
+    ],
+    avgRating: 3.5,
     photo: tourImg03,
     featured: true,
   },
@@ -93,46 +148,11 @@ const tours = [
         rating: 4.6,
       },
     ],
-    avgRating: 4.5,
+    avgRating: 4.1,
     photo: tourImg05,
     featured: false,
   },
-  {
-    id: "06",
-    title: "Cherry Blossoms Spring",
-    city: "Japan",
-    distance: 500,
-    price: 99,
-    maxGroupSize: 8,
-    desc: "this is the description",
-    reviews: [
-      {
-        name: "jhon doe",
-        rating: 4.6,
-      },
-    ],
-    avgRating: 4.5,
-    photo: tourImg06,
-    featured: false,
-  },
-  {
-    id: "07",
-    title: "Holmen Lofoten",
-    city: "France",
-    distance: 500,
-    price: 99,
-    maxGroupSize: 8,
-    desc: "this is the description",
-    reviews: [
-      {
-        name: "jhon doe",
-        rating: 4.6,
-      },
-    ],
-    avgRating: 4.5,
-    photo: tourImg07,
-    featured: false,
-  },
+
   {
     id: "08",
     title: "Snowy Mountains, Thailand",
@@ -142,6 +162,10 @@ const tours = [
     maxGroupSize: 8,
     desc: "this is the description",
     reviews: [
+      {
+        name: "jhon doe",
+        rating: 4.6,
+      },
       {
         name: "jhon doe",
         rating: 4.6,

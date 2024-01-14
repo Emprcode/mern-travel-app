@@ -32,14 +32,14 @@ export const Header = () => {
               {" "}
               Login
             </Button>
-            <Button variant="warning" className="fw-bold h5">
+            <Button variant="warning" className="fw-bold rounded-pill h5">
               {" "}
               Register
             </Button>
-            <span className="mx-2">
+            {/* <span className="mx-2">
               {" "}
               <i className="fa-solid fa-bars"></i>
-            </span>
+            </span> */}
           </Nav>
         </Navbar.Collapse>
       </Container>
