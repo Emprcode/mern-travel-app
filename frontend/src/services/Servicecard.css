@@ -1,0 +1,16 @@
+.icon-style {
+  background-color: #ee6e6e;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item_style {
+  padding: 1rem;
+  border-bottom: 4px solid #faa83586;
+  border-right: 4px solid #faa83586;
+  border-radius: 1rem;
+}
