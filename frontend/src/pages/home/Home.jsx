@@ -12,6 +12,7 @@ import { ServiceCard } from "../../services/ServiceCard";
 import { FeaturedTourList } from "../../components/featuredTour/FeaturedTourList";
 import { ImageGallery } from "../../image-gallery/ImageGallery";
 import { Testimonials } from "../../components/testimonial/Testimonials";
+import { NewsLetter } from "../../shared/newsletter/NewsLetter";
 
 const Home = () => {
   return (
@@ -158,6 +159,9 @@ const Home = () => {
           </Row>
         </Container>
       </div>
+
+      {/* newsletter */}
+      <NewsLetter />
     </>
   );
 };
