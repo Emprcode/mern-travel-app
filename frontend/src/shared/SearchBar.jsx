@@ -5,7 +5,7 @@ import "./SearchBar.css";
 const SearchBar = () => {
   return (
     <Form>
-      <div className=" d-flex shadow-lg form__style gap-3 col-md-8">
+      <div className=" d-flex justify-content-center align-items-center shadow-lg form__style gap-3 col-md-8">
         <Form.Group className="mb-3 mx-md-3 d-flex justify-content-center align-items-center gap-3 ">
           <span className="icon_color">
             <i className="fa-solid fa-location-dot"></i>
@@ -52,3 +52,22 @@ const SearchBar = () => {
 };
 
 export default SearchBar;
+// import Col from "react-bootstrap/Col";
+// import Form from "react-bootstrap/Form";
+// import Row from "react-bootstrap/Row";
+
+// const SearchBar = () => {
+//   return (
+//     <Form>
+//       <Row className="d-flex flex-wrap">
+//         <Col className="col-3">
+//           <Form.Control placeholder="First name" />
+//         </Col>
+//         <Col>
+//           <Form.Control placeholder="Last name" />
+//         </Col>
+//       </Row>
+//     </Form>
+//   );
+// };
+// export default SearchBar;
