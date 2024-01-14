@@ -11,6 +11,7 @@ import SearchBar from "../../shared/SearchBar";
 import { ServiceCard } from "../../services/ServiceCard";
 import { FeaturedTourList } from "../../components/featuredTour/FeaturedTourList";
 import { ImageGallery } from "../../image-gallery/ImageGallery";
+import { Testimonials } from "../../components/testimonial/Testimonials";
 
 const Home = () => {
   return (
@@ -138,6 +139,21 @@ const Home = () => {
             </Col>
             <Col lg={12}>
               <ImageGallery />
+            </Col>
+          </Row>
+        </Container>
+      </div>
+
+      {/* Testimonials */}
+      <div className="mt-5 mb-5">
+        <Container>
+          <Row className="p-4">
+            <Col lg={12}>
+              <Subtitle subtitle={"Fans Feedback"} />
+              <h2 className="mt-2">What our customer says about us</h2>
+            </Col>
+            <Col lg={12}>
+              <Testimonials />
             </Col>
           </Row>
         </Container>
