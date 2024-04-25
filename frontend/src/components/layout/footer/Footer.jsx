@@ -128,7 +128,7 @@ export const Footer = () => {
 
           <Col lg={12} className="text-center pt-5">
             <p className="copyright">
-              &copy; {year} | Developed by Narayan Aryal | All Rights Reserved.
+              &copy; {year} | Developed by @Emprcode|| All Rights Reserved.
             </p>
           </Col>
         </Row>
